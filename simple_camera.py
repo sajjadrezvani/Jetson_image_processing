@@ -6,6 +6,7 @@
 # Drivers for the camera and OpenCV are included in the base image
 
 import cv2
+import time
 
 """ 
 gstreamer_pipeline returns a GStreamer pipeline for capturing from the CSI camera
@@ -51,7 +52,6 @@ def show_camera():
     if video_capture.isOpened():
         try:
             window_handle = cv2.namedWindow(window_title, cv2.WINDOW_AUTOSIZE)
-            ind = 0
             while True:
                 ret_val, frame = video_capture.read()
                 # Check to see if the user closed the window
@@ -66,8 +66,7 @@ def show_camera():
                 if keyCode == 27 or keyCode == ord('q'):
                     break
                 if keyCode == ord('p'):
-                    cv2.imwrite('image{}.jpg'.format(ind) )
-                    ind += 1
+                    cv2.imwrite('image{}.jpg'.format( int(time.time()) ) ,frame)
         finally:
             video_capture.release()
             cv2.destroyAllWindows()
