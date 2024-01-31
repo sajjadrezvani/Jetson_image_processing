@@ -1,8 +1,11 @@
 # Jetson_image_processing
 In this project, I used several deep learning models and techniqes on GTSRB DataSet including ViT(visual transformers) and Resnent using PyTorch and Transfer Learning and Safe Machine Learnig using Tensor Flow to classify traffic sign. 
+![Untitled](https://github.com/sajjadrezvani/Jetson_image_processing/assets/100838219/3b004546-3960-4368-96a8-cbf5e347b1e5)
 
 ## Dataset
 The GTSRB dataset, which stands for German Traffic Sign Recognition Benchmark, is a collection of images of traffic signs commonly found on roads in Germany. These signs include things like speed limits, yield signs, stop signs, and more. The dataset is often used by researchers and developers to train and test algorithms for recognizing and interpreting traffic signs using computers or artificial intelligence. It's like a big set of pictures of road signs that people use to teach computers how to understand and respond to what the signs mean.
+![Untitled](https://github.com/sajjadrezvani/Jetson_image_processing/assets/100838219/d9e8866d-c66b-4e76-97fc-a778c4510baf)
+
 
 ## Visual Transformers (ViT):
 Visual Transformers, or ViT, are a type of model that uses transformer architecture to process images. Transformers were initially popular in natural language processing (NLP) tasks but have been adapted for computer vision tasks like image classification. ViT breaks down an image into smaller patches, treats them as tokens (like words in NLP), and processes them using transformer layers to understand the image's content.
@@ -22,6 +25,8 @@ ResNet, short for Residual Network, is a type of deep neural network architectur
 ### Structure:
 The structure of a ResNet consists of several layers organized into blocks, with each block containing multiple convolutional layers. The key innovation in ResNet is the introduction of skip connections, also known as shortcut connections or identity mappings, which allow the network to bypass certain layers. These skip connections enable the gradient flow to bypass the problematic layers, alleviating the vanishing gradient problem and facilitating the training of very deep networks.
 
+![Untitled-1](https://github.com/sajjadrezvani/Jetson_image_processing/assets/100838219/222748a8-2d78-47d1-837a-341b162c2a3d)
+
 ### Application and Performance:
 ResNet has been widely used in various computer vision tasks, particularly in image classification, object detection, and segmentation. It has consistently demonstrated excellent performance on benchmark datasets like ImageNet. ResNet's ability to effectively train very deep neural networks has made it a cornerstone architecture in the field of deep learning.
 
@@ -36,6 +41,7 @@ Transfer Learning has found wide applications across various domains, including 
 
  ## Safe ML:
 "Safe ML" refers to the practice of ensuring that machine learning (ML) models are reliable, robust, and trustworthy. It involves implementing techniques and strategies to mitigate potential risks associated with ML systems, such as biases, unfairness, safety concerns, and ethical implications. The goal of Safe ML is to develop models that not only perform well but also behave responsibly and ethically in real-world scenarios. Safe ML practices contribute to building trustworthy and responsible AI systems that prioritize reliability, fairness, transparency, and ethical considerations, ultimately enhancing societal well-being and trust in machine learning technology.
+![Untitled-1](https://github.com/sajjadrezvani/Jetson_image_processing/assets/100838219/7a5f81d0-533b-45fd-81e9-4a19f5f4998c)
 
 ### Structure:
 The structure of Safe ML involves several key components and practices:
@@ -44,6 +50,8 @@ Model Explainability: Implementing methods to interpret and explain model predic
 Fairness and Bias Mitigation: Employing techniques to detect and mitigate biases in training data and model predictions, ensuring fairness and equity across different demographic groups.
 Robustness and Security: Strengthening models against adversarial attacks, ensuring resilience to input perturbations and malicious inputs.
 Ethical Considerations: Addressing ethical concerns and societal implications of ML models, such as privacy preservation, algorithmic transparency, and accountability.
+
+![Untitled](https://github.com/sajjadrezvani/Jetson_image_processing/assets/100838219/60d0d97c-8176-4d1d-ad28-7df1442812b2)
 
 ### Application and Performance:
 Safe ML practices are applied across various domains and applications where machine learning is deployed, including healthcare, finance, autonomous vehicles, and social media. For example:
