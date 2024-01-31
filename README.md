@@ -1,5 +1,5 @@
 # Jetson_image_processing
-In this project, I used several deep learning models and techniqes on GTSRB DataSet including ViT(visual transformers), Resnent using PyTorch and Transfer Learning and Safe Machine Learnig using Tensor Flow to classify traffic sign. 
+In this project, I used several deep learning models and techniqes on GTSRB DataSet including ViT(visual transformers) and Resnent using PyTorch and Transfer Learning and Safe Machine Learnig using Tensor Flow to classify traffic sign. 
 
 ## Dataset
 The GTSRB dataset, which stands for German Traffic Sign Recognition Benchmark, is a collection of images of traffic signs commonly found on roads in Germany. These signs include things like speed limits, yield signs, stop signs, and more. The dataset is often used by researchers and developers to train and test algorithms for recognizing and interpreting traffic signs using computers or artificial intelligence. It's like a big set of pictures of road signs that people use to teach computers how to understand and respond to what the signs mean.
